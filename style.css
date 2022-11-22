@@ -34,7 +34,7 @@ span{
    height: 200px; 
 }
 /*The favourites section*/
-.info-sect{
+.fav-sect{
     display: block;
     text-align: center;
     margin-bottom: 64px;
@@ -55,7 +55,7 @@ h2{
     font-weight: 800;
 }
 /*My favourites*/
-.hero-section{
+.my-fav{
     margin: -8px;
     padding: 24px 200px;
     display: flex;
@@ -69,7 +69,7 @@ sub{
     font-weight: bold;
 
 }
-.hero-section>p{
+.my-fav>p{
     width: 880px;
     font-style: italic;
     font-size: 36px;
