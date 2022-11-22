@@ -36,12 +36,22 @@ span{
 .info-sect{
     display: block;
     text-align: center;
+    margin-bottom: 64px;
 }
 .card-conatiner{
     display: flex;
 }
+.card{
+    width: 25%;
+}
 .card>img{
     width: 300px;
+    height: 225px;
+}
+h2{
+    color: #56042C;
+    font-size: 36px;
+    font-weight: 800;
 }
 /*My favourites*/
 .hero-section{
