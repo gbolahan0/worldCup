@@ -13,7 +13,7 @@ ul{
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 8px;
+    gap: 24px;
 }
 a{ 
     font-size: 18px;
@@ -26,6 +26,7 @@ span{
 .header{
     display: flex;
     justify-content: space-between;
+    gap: 48px;
 }
 .header-image{
     
@@ -56,8 +57,11 @@ sub{
 
 /*footer*/
 footer{
+    display: flex;
     text-align: center;
     height: 36px;
+    justify-content: center;
+    height: 48px;
 }
 /*Colours*/
 header, footer{
