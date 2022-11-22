@@ -61,7 +61,7 @@ h2{
     display: flex;
     text-align: center;
    align-items: center;
-   background-color: #e6b6fc;
+   background-color: #ff85de;
    justify-content: center;
 }
 sub{
@@ -75,6 +75,30 @@ sub{
     font-size: 36px;
 }
 /*Information*/
+.Info{ 
+    display: flex;
+    padding: 96px 192px;
+    justify-content: center;
+}
+.Info-sect{
+    background-color:  #ffc2ee;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 0 96px;
+}
+.info-btn{
+    background-color: #ffc2ee; 
+    border: 2px solid white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
 
 /*footer*/
 footer{
