@@ -99,6 +99,9 @@ sub{
     font-size: 16px;
     border-radius: 8px;
 }
+.info-btn>a{
+    color: black;
+}
 
 /*footer*/
 footer{
