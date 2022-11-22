@@ -1,3 +1,4 @@
+
 /*Header*/
 header{
     padding: 0 150px 16px 150px;
@@ -55,13 +56,23 @@ h2{
 }
 /*My favourites*/
 .hero-section{
-    padding: 0 200px;
+    margin: -8px;
+    padding: 24px 200px;
     display: flex;
     text-align: center;
    align-items: center;
+   background-color: #e6b6fc;
+   justify-content: center;
 }
 sub{
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.hero-section>p{
+    width: 880px;
+    font-style: italic;
+    font-size: 36px;
 }
 /*Information*/
 
