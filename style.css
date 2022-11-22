@@ -1,7 +1,12 @@
 /*Header*/
+header{
+    padding: 0 150px 16px 150px;
+}
 .nav-bar{
     display: flex;
     justify-content: space-between;
+    height: 64px;
+    align-items: center;
 }
 ul{
     list-style-type: none;
@@ -13,6 +18,7 @@ ul{
 a{ 
     font-size: 18px;
     text-decoration: none;
+    color: #e5e7eb;
 }
 span{
     font-size: 24px;
@@ -21,6 +27,10 @@ span{
     display: flex;
     justify-content: space-between;
 }
+.header-image{
+    
+   height: 200px; 
+}
 /*The favourites section*/
 .info-sect{
     display: block;
@@ -28,6 +38,9 @@ span{
 }
 .card-conatiner{
     display: flex;
+}
+.card>img{
+    width: 300px;
 }
 /*My favourites*/
 .hero-section{
@@ -45,4 +58,10 @@ sub{
 footer{
     text-align: center;
     height: 36px;
+}
+/*Colours*/
+header, footer{
+    background-color: #56042C;
+    margin: -8px;
+    color: #f9faf8;
 }
